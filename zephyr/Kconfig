@@ -1,0 +1,10 @@
+# SPDX-License-Identifier: Apache-2.0
+menuconfig UNIQUE_IDENTIFIER_MSGS
+        bool "Unique identifier msgs support"
+        help
+          This option enables Unique identifier msgs
+
+if UNIQUE_IDENTIFIER_MSGS
+
+endif
+
